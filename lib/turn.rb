@@ -47,7 +47,7 @@ def turn(board)
       move(board, index)
       puts display_board(board)
     else
-      puts "That is an invalid entry!"
+      puts "Invalid"
       turn(board)
       
     end 
